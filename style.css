@@ -1,0 +1,87 @@
+/* we can write comments */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding:10px;
+    text-align: center;
+}
+
+.nav {
+    display:flex;
+    justify-content: space-around;
+    background-image: url("banner.jpeg");
+    background-size:cover;
+    background-position: center 67%;
+    text-shadow: 1px 1px black;
+    background-repeat:no-repeat;
+    font-family: 'Dancing Script', cursive;
+    font-size:20px;
+}
+
+.nav a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color:yellow;
+}
+
+.firstpage{
+    background-image: url("62a1eee9996ee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about {
+    text-align:center;
+    background-image: url("dust.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.end {
+    text-align:center;
+    background-image: url("Iorek.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1, h2 {
+    color:rebeccapurple;
+    font-size:50px;
+    font-family: 'Arial';
+    background-color: rgb(255, 255, 255, .6);
+    text-shadow: 1px 1px white;
+}
+p, strong, i, li, q{
+    display:flex;
+    text-align: center;
+    flex-direction:column;
+    align-items:center;
+    flex-wrap: wrap;
+    color:rgb(184, 71, 212);
+    font-size:20px;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgba(255, 255, 255, 0.52);
+    text-shadow: 1px 1px black;
+}
+
+
+.center {
+    text-align: center;
+}
+
+#books {
+    color:violet;
+}
+
+.image1{
+    width:100%;
+}
+
+
